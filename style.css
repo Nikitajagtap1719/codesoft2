@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    overflow: hidden;
+ }
+.container{
+    background-image: url("D:\landing page img.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 2rem ;
+    gap: 2rem;
+}
+ul li a{
+color: #ffffff;
+}
+
+ul li a:hover,
+ul li a:active{
+    background-color: red;
+    color: #ffffff;
+   
+}
+.title{
+    font-size:2.5rem;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    color: #ffffff;
+}
+ .content{
+        width: 800px;
+        height: 450px;
+        margin: 10px auto;
+        color: #ffffff;
+        box-shadow: 0 10px 20px black, 0 10px 20px black;
+ }
+ .content h1{
+    /* text-align: center; */
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    padding: 3rem 0 0.5rem 8rem;
+}
+.content h1 span{
+margin-left: 8rem;
+}
+.content h4{
+    font-family: poppins;
+margin-left: 8rem;
+}
+.content p{
+    font-family: 'math';
+    margin: 1rem 7.2rem;
+    margin-right: rem;
+    font-weight: 700;
+}
+
+.btn button{
+    padding: 1rem 0.3rem;
+    
+     border-radius: 7px; 
+     margin: 0 7rem;
+    
+     font-size: 1rem; 
+    background-color: #e93535;
+    color: #ffffff;
+    border: none;
+    font-family: 'math';
+    font-weight: 600;
+    cursor: pointer;
+    }
+ .primary-button:hover,
+  .primary-button:active{
+    background-color:red;}
+
+
+ 
+  @media screen and (max-width:563px){
+  .navbar ul{
+    display: none;
+  }
+  .title{
+    margin-top: 1rem;
+  }
+   .content{
+    width: auto;
+    margin:0;
+    text-align: center;
+   }
+   .content p{
+    margin: 1rem 2rem;
+   }
+
+
+   .content h1 {
+    padding: 1rem 0 0 0;
+    font-size: 28px;
+   }
+   .content h1 span {
+    margin-left: 0;
+   }
+   .content h4 {
+    margin-left: 0;
+    font-size: 12px;
+    margin-top: 0.3rem;
+   }
+   .btn button{
+    margin: 0;
+   }
+  }
+
+ 
+    
+
